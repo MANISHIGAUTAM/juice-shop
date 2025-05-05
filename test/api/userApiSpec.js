@@ -213,7 +213,7 @@ describe('/rest/user/whoami', () => {
       headers: jsonHeader,
       body: {
         email: 'bjoern.kimminich@gmail.com',
-        password: 'bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamIC='
+        password: 'bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamIasdasdasdasdssssssssssssssssssssss='
       }
     })
       .expect('status', 200)
